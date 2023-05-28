@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    border: none;
+    outline:none;
+    scroll-behavior: smooth;
+
+}
+:root{
+    --bg-color:#0f1012;
+    --second-bg-color:#31312e;
+    --text--color:#fff;
+    --main-color:rgb(239, 42, 209);
+
+}
+html{
+    font-size:62.5%;
+    overflow-x:hidden ;
+
+}
+body{
+    background: var(--bg-color);
+    color:var(--text--color)
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 2rem 9%;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100 ;
+
+
+}
+.logo{
+    font-size:30px;
+    color: var(--text--color);
+    font-weight: 600;
+    cursor: default;
+}
+.nav{
+    font-size: 1.7rem;
+    /* color:var(--text--color); */
+
+    margin-left: 4rem;
+}
+a{
+    color: #fff;
+    margin-left:30px;
+    font-size:25px ;
+}
+.nav a:hover,
+.nav a.active{
+    color: var(--main-color);
+    
+}
+#menu-icon{
+    font-size: 3.6rem;
+    color:var(--text--color);
+    display: none;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .home-img img{
+    width: 366vw;
+    height:700px;
+    display:none ; */
+img{
+    height:350px;
+    width: 350px;
+    margin: 100px;
+    margin-left: 350px;
+    /* border:5px solid red; */
+    background-color: rgb(223, 228, 142);
+    border-radius: 500px;
+    
+    
+
+}
+img:hover{
+    width:300px;
+    height:300px;
+}
+
+    
+
+.home-content h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+    
+}
+.home-content h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height:1.3 ;
+}
+.home-content p{
+    font-size: 1.6rem;
+}
+.social-media{
+    margin-top: 50px;
+    margin:20px;
+
+}
+ i{
+    font-size:50px;
+    margin: 15px;
+}
+#red:hover{
+    color: red;
+}
+#green:hover{
+    color:green;
+}
+#blue:hover{
+    color:blue;
+}
+p{
+    font-size: 150px;
+}
+.btn{
+    width:300px;
+    height:30px;
+    background-color: red;
+    border-radius: 10px;
+    border:2px solid #fff;
+    color:black;
+    margin-left: 100px;
+    margin-top: 80px;
+    font-size: 40px;
+    
+}
+.btn:hover{
+    color:white;
+    background: rgb(180, 198, 40);
+}
+
